@@ -26,7 +26,7 @@ aside
     text-align: justify;
     text-align: center;
     background-color: #78909C ;
-    width: 30
+    
 }
 
 img
@@ -41,7 +41,7 @@ img
 
 .block-loisirs /* block ASIDE en bas gauche*/
 {
-    margin: 900px 00px 20px 0px
+    margin: 827px 00px 20px 0px
 }
 .fa-table-tennis, .fa-anchor, .fa-hands-helping /* PICTOGRAMME LOISIRS bas gauche*/
 {
@@ -163,7 +163,7 @@ li
 }
 .ss-titre
 {
-    margin: 0px 60px 0px 40PX}
+    margin: 0px 60px 0px 40PX
 }
 .fa-dot-circle + p
 {
@@ -188,6 +188,7 @@ p
 {
     margin-top: 10px;
     margin-bottom: 10px;
+    line-height: 25px
 }
 @media all and (max-width: 767px)
 /* DISPLAY SMARTPHONE*/
@@ -246,7 +247,7 @@ margin: 0 0 0 0;
 {margin-top: 50px}
 
 .c1, .c2
-{margin: 0 0 30px 40px;
+{margin: 20px 0 0 0;
 display: block;
 }
 .c3
@@ -273,14 +274,29 @@ margin-left: 40px;
     text-align: center
 }
 .ss-titre
-{margin-right: 40px;}
+{
+    margin-right: 40px;
+}
+
+.block-recommandations p
+{text-align: center;
+}
+h4
+{
+display:none
+}
 
 }
 
-@media all and (min-width: 768px) and (max-device-width: 1023px) 
+@media all and (min-width: 768px) and (max-width: 1023px) 
 /* RESPONSIVE POUR TABLETTE*/
 
 {
+h4
+{
+display:none
+}
+
 .block-formation, .block-parcours, .block-recommandations
 {
 margin-left: 20px;
@@ -337,11 +353,11 @@ margin: 0 0 0 0;
 {margin-top: 50px}
 
 .c1, .c2
-{margin: 0 0 30px 40px;
+{margin: 0 100px 30px 40px;
 display: block;
 }
 .c3
-{display: block}
+{display: flex;}
 h3
     {margin-top: 0px;}
 li
@@ -384,5 +400,9 @@ width: 100%;
 }
 .block-contact2
 {display: none}
+h4
+{
+display:none
+}
 
 }
