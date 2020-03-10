@@ -15,7 +15,6 @@ body
     margin: 0 auto;
     padding: 0;
 }
-
 #block-page /* block 1*/
 {
     display: flex;
@@ -120,7 +119,7 @@ article ul
     display: flex;
     flex-direction:column
 }
-dl
+li
 {display: flex;}
 
 .picto1
@@ -254,7 +253,7 @@ display: block;
 {display: block}
 h3
     {margin-top: 0px;}
-dl
+li
 {display: block;}
 p
 {line-height: 1.6em;
@@ -345,7 +344,7 @@ display: block;
 {display: block}
 h3
     {margin-top: 0px;}
-dl
+li
 {display: block;}
 p
 {line-height: 1.6em;
