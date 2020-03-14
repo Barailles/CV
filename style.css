@@ -28,7 +28,10 @@ aside
     background-color: #78909C ;
     
 }
-
+h2
+{
+    font-size: 1.3EM
+}
 img
 {
     margin: 30px 0px 10px 0px;
@@ -103,7 +106,7 @@ header h2 /* Développeur web freelance */
 .fa-circle, .fa-dot-circle, .fa-suitcase, .fa-pen, .fa-graduation-cap /* picto main block */
 {
     color: #78909C;
-    margin: 0px 20px 0px 0px;
+    margin: 0px 10px 0px 0px;
 
 }
 
