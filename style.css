@@ -20,13 +20,11 @@ body
     display: flex;
     flex-direction: row-reverse;    
 }
-
 aside 
 {
     text-align: justify;
     text-align: center;
-    background-color: #78909C ;
-    
+    background-color: #78909C;
 }
 h2
 {
@@ -41,7 +39,6 @@ img
     border-radius: 90px;
     box-shadow: 0px 4px 4px black;
 }
-
 .block-loisirs /* block ASIDE en bas gauche*/
 {
     margin: 827px 00px 20px 0px
@@ -68,48 +65,40 @@ h3 /* TITRES ASIDE */
     text-align: center;
     background-color: black;
     color: #78909C
-
 }
 span /* barailles seul*/
 {
-color: #212121;
+    color: #212121;
 }
-
 aside p
 {
     text-align: left;
     margin: 0px 35px 0px 35px;
 }
 h2, h3, strong /* différents titres */
-    {font-family: DroidSans-webfont;
-    }
-
+{
+    font-family: DroidSans-webfont;
+}
 hr /* BARRES parametre généraux */
 {
     height: 2px;
     background-color: #78909C
 }
-
 header hr /* BARRES générales */
 {
     margin: 5px 0px 0px 44px;
     width: 10%;  
 }
-
-
 header h2 /* Développeur web freelance */
 {
     color: black;
     margin: 0px 0px 0px 42px
 }
-
 .fa-circle, .fa-dot-circle, .fa-suitcase, .fa-pen, .fa-graduation-cap /* picto main block */
 {
     color: #78909C;
     margin: 0px 10px 0px 0px;
-
 }
-
 .c1, .c2
 {
     display: flex;
@@ -123,8 +112,9 @@ article ul
     flex-direction:column
 }
 li
-{display: flex;}
-
+{   
+    display: flex
+}
 .picto1
 {
     display: flex;
@@ -159,7 +149,6 @@ li
 {
     margin: 0px 60px 0px 40px;    
 }
-
 .c3
 {
     display: flex;
@@ -177,7 +166,6 @@ li
     margin-top: 0px;
     font-weight: bold;
 }
-
 .block-parcours, .recommandations
 {
     margin-top: 50px;
@@ -193,219 +181,259 @@ p
     margin-bottom: 10px;
     line-height: 25px
 }
-@media all and (max-width: 767px)
-/* DISPLAY SMARTPHONE*/
 
-{
-.block-contact
-{display: none}
-header
+@media all and (max-width: 767px) /* DISPLAY SMARTPHONE*/ {
+    .block-contact
+    {
+        display: none
+    }
+    header
     {
     background-color: #78909C;
-
     }
-header hr
-    {display: none;}
-img
-    {display: none}
-
-#block-page
-    {display: block;}
-
-header h2
-    {color:#FFFFFFFF;
-    margin-left: 0px;
-    padding: 0px 20px 20px 20px; }
-header p
-{text-align: center;}
-h1, span
-    {color:#FFFFFFFF}
-h1
+    header hr
     {
-    margin: 0PX 0px 25px 00px}
-    
-header
-    {padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-aside
+        display: none
+    }
+    img
     {
-    display: block;
-    width: 100%
+        display: none
+    }
+    #block-page
+    {
+        display: block
+    }
+    header h2
+    {
+        color:#FFFFFFFF;
+        margin-left: 0px;
+        padding: 0px 20px 20px 20px;
+    }
+    header p
+    {
+        text-align: center
+    }
+    h1, span
+    {
+        color:#FFFFFFFF
+    }
+    h1
+    {
+        margin: 0PX 0px 25px 00px
+    }    
+    header
+    {  
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    aside
+    {
+        display: block;
+        width: 100%
     }  
-.block-loisirs, .block-contact
+    .block-loisirs, .block-contact
     {
-    margin: 0 0 0 0;
-    width: 100%;
-    padding-bottom: 30px;
+        margin: 0 0 0 0;
+        width: 100%;
+        padding-bottom: 30px;
     }
-.block-profil
-{
-margin: 0 0 0 0;
-    width: 100%;
-    padding-bottom: 30px;   
-}
-.block-recommandations
-{margin-top: 50px}
-
-.c1, .c2
-{margin: 20px 0 0 0;
-display: block;
-}
-.c3
-{display: block}
-h3
-    {margin-top: 0px;}
-li
-{display: block;}
-p
-{line-height: 1.6em;
-text-align: justify}
-aside p
-{text-align: center;
-margin-left: 40px;
-    margin-right: 40px;
-}
-.picto1, .picto2, .picto3, .picto7, .picto5, .picto6
-{
-    width: 100%
-}
-.aft, .open, .ifa, .lsl, .carrouf, .keolis
-{
-    margin: 0px 40px 0px 0px;
-    text-align: center
-}
-.ss-titre
-{
-    margin-right: 40px;
-}
-
-.block-recommandations p
-{text-align: center;
-}
-h4
-{
-display:none
-}
-
+    .block-profil
+    {
+        margin: 0 0 0 0;
+        width: 100%;
+        padding-bottom: 30px;   
+    }
+    .block-recommandations
+    {
+        margin-top: 50px
+    }
+    .c1, .c2
+    {
+        margin: 20px 0 0 0;
+        display: block;
+    }
+    .c3
+    {
+        display: block
+    }
+    h3
+    {
+        margin-top: 0px
+    }
+    li
+    {
+        display: block
+    }
+    p
+    {
+        line-height: 1.6em;
+        text-align: justify
+    }
+    aside p
+    {
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .picto1, .picto2, .picto3, .picto7, .picto5, .picto6
+    {
+        width: 100%
+    }
+    .aft, .open, .ifa, .lsl, .carrouf, .keolis
+    {
+        margin: 0px 40px 0px 0px;
+        text-align: center
+    }
+    .ss-titre
+    {
+        margin-right: 40px;
+    }
+    .block-recommandations p
+    {
+        text-align: center;
+    }
+    h4
+    {
+        display:none
+    }
 }
 
 @media all and (min-width: 768px) and (max-width: 1023px) 
-/* RESPONSIVE POUR TABLETTE*/
-
-{
-h4
-{
-display:none
-}
-
-.block-formation, .block-parcours, .block-recommandations
-{
-margin-left: 20px;
-margin-right: 20px;
-}
-
-header
+/* RESPONSIVE POUR TABLETTE*/ {
+    h4
     {
-    background-color: #78909C;
+        display:none
     }
-header hr
-    {background-color: #FFFFFF;
-    margin: 13px 0px -18px 98px;
-width: 35%;
-display: none;}
-img
-    {display: none}
-
-#block-page
-    {display: block;}
-
-header h2
-    {color:#FFFFFFFF;
-    margin-left: 0px}
-h1, span
-    {color:#FFFFFFFF}
-h1
+    .block-formation, .block-parcours, .block-recommandations
     {
-    margin: 0PX 0px 25px 00px}
-    
-header
-    {padding-top: 20px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-aside
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    header
     {
-    display: block;
-    width: 100%
+        background-color: #78909C;
+    }
+    header hr
+    {
+        background-color: #FFFFFF;
+        margin: 13px 0px -18px 98px;
+        width: 35%;
+        display: none
+    }
+    img
+    {
+        display: none
+    }
+    #block-page
+    {
+        display: block
+    }
+    header h2
+    {
+        color:#FFFFFFFF;
+        margin-left: 0px
+    }
+    h1, span
+    {
+        color:#FFFFFFFF
+    }
+    h1
+    {
+        margin: 0PX 0px 25px 00px
+    }    
+    header
+    {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    aside
+    {
+        display: block;
+        width: 100%
     }  
-.block-loisirs, .block-contact
-    {
-    margin: 0 0 0 0;
-    width: 100%;
-    padding-bottom: 30px;
+    .block-loisirs, .block-contact
+    {   
+        margin: 0 0 0 0;
+        width: 100%;
+        padding-bottom: 30px
     }
-.block-profil
-{
-margin: 0 0 0 0;
-    width: 100%;
-    padding-bottom: 30px;   
-}
-.block-recommandations
-{margin-top: 50px}
-
-.c1, .c2
-{margin: 0 100px 30px 40px;
-display: block;
-}
-.c3
-{display: flex;}
-h3
-    {margin-top: 0px;}
-li
-{display: block;}
-p
-{line-height: 1.6em;
-text-align: justify}
-aside p
-{text-align: center;
-margin-left: 40px;
-    margin-right: 40px;
-}
-.picto1, .picto2, .picto3, .picto7, .picto5, .picto6
-{
-    width: 100%
-}
-.aft, .open, .ifa, .lsl, .carrouf, .keolis
-{
-    margin: 0px 40px 0px 0px;
-    text-align: justify
-}
-.ss-titre
-{margin-right: 40px;}
-.block-contact2
-{display: none}
-
-}
-
-@media screen and (min-width: 1024px) /* RESPONSIVE POUR DESKTOP*/
-{
-#block-page
-{border-width:1px;
-    border-style:solid;
-    border-color:black;}
-
-body
-{
-max-width: 900px;
-width: 100%;
-}
-.block-contact2
-{display: none}
-h4
-{
-display:none
+    .block-profil
+    {
+        margin: 0 0 0 0;
+        width: 100%;
+        padding-bottom: 30px;   
+    }
+    .block-recommandations
+    {
+        margin-top: 50px
+    }
+    .c1, .c2
+    {
+        margin: 0 100px 30px 40px;
+        display: block;
+    }
+    .c3
+    {
+        display: flex
+    }
+    h3
+    {
+        margin-top: 0px
+    }
+    li
+    {
+        display: block
+    }
+    p
+    {
+        line-height: 1.6em;
+        text-align: justify
+    }
+    aside p
+    {
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .picto1, .picto2, .picto3, .picto7, .picto5, .picto6
+    {
+        width: 100%
+    }
+    .aft, .open, .ifa, .lsl, .carrouf, .keolis
+    {
+        margin: 0px 40px 0px 0px;
+        text-align: justify
+    }
+    .ss-titre
+    {
+        margin-right: 40px;
+    }
+    .block-contact2
+    {
+        display: none
+    }
 }
 
+@media screen and (min-width: 1024px) /* RESPONSIVE POUR DESKTOP*/ {
+    #block-page
+    {
+        border-width:1px;
+        border-style:solid;
+        border-color:black;
+    }
+    body
+    {
+        max-width: 900px;
+        width: 100%;
+    }
+    .block-contact2
+    {
+        display: none
+    }
+    h4
+    {
+        display:none
+    }
 }
